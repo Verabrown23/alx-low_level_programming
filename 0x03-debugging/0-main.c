@@ -9,7 +9,8 @@ int main(void)
 {
 	int i;
 
-	i=0;
+	i=98;	
 	positive_negative(i);
+	if(i == 0 && positive_negative(i)=="0 is zero"){return true;}
 return (0);
 }
